@@ -32,3 +32,4 @@
 /config/database.yml
 
 .idea/
+/test
