@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
+gem "rails-i18n"
 gem "rubocop", "~> 0.54.0", require: false
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
