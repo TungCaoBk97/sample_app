@@ -30,5 +30,13 @@ en:
   sample_app_begin: ""
   sample_app_end: "sample application"
   ruby_on_rails_tut_sample_app: "Ruby on Rails Tutorial Sample App"
-
-
+  sign_up: "Sign Up"
+  this_is_signup_page_for_new_user: "This will be a sign up page for new users"
+  sign_up_now: "Sign up now!"
+  tutorial_link_html: <a href="https://www.railstutorial.org/">
+  tutorial_book_html: <a href="https://www.railstutorial.org/book">
+  screencast_link_html: <a href="http://screencasts.railstutorial.org/">
+  tutorial_contact_html: <a href="https://www.railstutorial.org/contact">
+  tutorial_help_html: <a href="https://www.railstutorial.org/help">
+  michaelhart_link_html: <a href="http://www.michaelhartl.com/">
+  tutorial_new_html: <a href="http://news.railstutorial.org/">

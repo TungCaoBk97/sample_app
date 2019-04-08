@@ -1,5 +1,6 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'colors';
 
 /* universal */
 
@@ -42,7 +43,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $light-gray;
 }
 
 p {
@@ -56,7 +57,7 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: $cl-logo;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -64,12 +65,8 @@ p {
 }
 
 #logo:hover {
-  color: #fff;
+  color: $logo-hover;
   text-decoration: none;
-}
-
-img {
-  display: none;
 }
 
 #eng {
@@ -83,28 +80,23 @@ img {
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
-
-footer a {
-  color: #555;
-}
-
-footer a:hover {
-  color: #222;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  border-top: 1px solid $cl-border-top;
+  color: $light-gray;
+  a {
+    color: $cl-a-link;
+    &:hover {
+      color: $cl-a-hover;
+    }
+  }
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }

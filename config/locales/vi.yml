@@ -30,3 +30,13 @@ vi:
   sample_app_begin: "ví dụ cho"
   sample_app_end: ""
   ruby_on_rails_tut_sample_app: "Ví dụ hướng dẫn Ruby on Rails"
+  sign_up: "Đăng ký"
+  this_is_signup_page_for_new_user: "Trang đăng ký cho người dùng mới"
+  sign_up_now: "Đăng ký ngay!"
+  tutorial_link_html: <a href="https://www.railstutorial.org/">
+  tutorial_book_html: <a href="https://www.railstutorial.org/book">
+  screencast_link_html: <a href="http://screencasts.railstutorial.org/">
+  tutorial_contact_html: <a href="https://www.railstutorial.org/contact">
+  tutorial_help_html: <a href="https://www.railstutorial.org/help">
+  michaelhart_link_html: <a href="http://www.michaelhartl.com/">
+  tutorial_new_html: <a href="http://news.railstutorial.org/">
