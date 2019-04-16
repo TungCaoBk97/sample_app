@@ -50,8 +50,22 @@ vi:
     password: "Mật khẩu"
     password_confirm: "Xác nhận mật khẩu"
     create_account: "Tạo tài khoản"
+  log_in_form:
+    email: "Email"
+    password: "Mật khẩu"
+    log_in: "Đăng nhập"
   error:
     form_has_errors_html: "Biểu mẫu có %{string}"
     error: "lỗi"
     not_found: "Không tìm thấy người dùng"
     user_not_found: "Người dùng không tồn tại."
+  new_user: "Chưa có tài khoản?"
+  flash:
+    invalid_email_password: "Email và mật khẩu không đúng"
+  header:
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    setting: "Cài đặt"
+    log_out: "Đăng xuất"
+    log_in: "Đăng nhập"
