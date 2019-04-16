@@ -40,3 +40,18 @@ vi:
   tutorial_help_html: <a href="https://www.railstutorial.org/help">
   michaelhart_link_html: <a href="http://www.michaelhartl.com/">
   tutorial_new_html: <a href="http://news.railstutorial.org/">
+  created_at: "ngày tạo"
+  updated_at: "cập nhật lúc"
+  time_now: "Bây giờ là"
+  welcome_to_sample_app: "Chào mừng bạn đến với siêu Ứng dụng mẫu!"
+  sign_up_form:
+    name: "Họ và tên"
+    email: "Email"
+    password: "Mật khẩu"
+    password_confirm: "Xác nhận mật khẩu"
+    create_account: "Tạo tài khoản"
+  error:
+    form_has_errors_html: "Biểu mẫu có %{string}"
+    error: "lỗi"
+    not_found: "Không tìm thấy người dùng"
+    user_not_found: "Người dùng không tồn tại."

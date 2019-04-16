@@ -40,3 +40,19 @@ en:
   tutorial_help_html: <a href="https://www.railstutorial.org/help">
   michaelhart_link_html: <a href="http://www.michaelhartl.com/">
   tutorial_new_html: <a href="http://news.railstutorial.org/">
+  created_at: "created at"
+  updated_at: "updated at"
+  time_now: "Time now"
+  welcome_to_sample_app: "Welcome to the Sample App!"
+  sign_up_form:
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    password_confirm: "Password Confirmation"
+    create_account: "Create my account"
+  error:
+    form_has_errors_html: "The form contains %{string}."
+    error: "error"
+    not_found: "Not found"
+    user_not_found: "User not found."
+
