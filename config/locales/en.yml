@@ -50,9 +50,22 @@ en:
     password: "Password"
     password_confirm: "Password Confirmation"
     create_account: "Create my account"
+  log_in_form:
+    email: "Email"
+    password: "Password"
+    log_in: "Log in"
   error:
     form_has_errors_html: "The form contains %{string}."
     error: "error"
     not_found: "Not found"
     user_not_found: "User not found."
-
+  new_user: "New user?"
+  flash:
+    invalid_email_password: "Invalid email/password combination"
+  header:
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    setting: "Setting"
+    log_out: "Log out"
+    log_in: "Log in"
