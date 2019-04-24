@@ -62,6 +62,8 @@ vi:
   new_user: "Chưa có tài khoản?"
   flash:
     invalid_email_password: "Email và mật khẩu không đúng"
+    profile_updated: "Hồ sơ đã được cập nhật"
+    please_login: "Hãy đăng nhập"
   header:
     users: "Người dùng"
     account: "Tài khoản"
@@ -70,3 +72,21 @@ vi:
     log_out: "Đăng xuất"
     log_in: "Đăng nhập"
   remember_this_computer: "Nhớ tôi trên máy tính này"
+  all_user:
+    delete: "xóa"
+    you_sure: "Bạn chắc không?"
+    all_user: "Danh sách người dùng"
+  paginate:
+    previous: "Trang trước"
+    next: "Trang kế"
+  update:
+    edit_user: "Chỉnh sửa thông tin người dùng"
+    update_profile: "Cập nhật hồ sơ của bạn"
+    name: "Họ và tên"
+    email: "Email"
+    password: "Mật khẩu"
+    password_confirm: "Xác nhận mật khẩu"
+    save_change: "Lưu thay đổi"
+  delete:
+    success: "Xóa người dùng thành công"
+    fail: "Xóa không thành công"

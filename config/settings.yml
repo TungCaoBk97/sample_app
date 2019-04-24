@@ -3,3 +3,4 @@ user_valid:
   max_name_length: 50
   min_pass_length: 6
 remember_me: "1"
+gravatar_imagine_size: 50
