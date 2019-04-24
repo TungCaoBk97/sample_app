@@ -90,3 +90,15 @@ vi:
   delete:
     success: "Xóa người dùng thành công"
     fail: "Xóa không thành công"
+  account_activate:
+    success: "Kích hoạt tài khoản thành công"
+    unsuccess: "Link kích hoạt không chính xác"
+    not_activate_message: "Tài khoản chưa được kích hoạt. Kiểm tra email để
+      tìm đường dẫn kích hoạt"
+    check_email_for_active: "Hãy kiểm tra email để kích hoạt tài khoản."
+    subject: "Kích hoạt tài khoản"
+    greeting: "Chào"
+    activate: "Kích hoạt"
+  mailer:
+    acc_activate_content_html: "<p> Chào mừng đến với Ứng dụng mẫu! Nhấn vào
+      link bên dưới để kích hoạt tài khoản của bạn:</p>"

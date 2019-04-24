@@ -1,7 +1,7 @@
 <li>
   <%= gravatar_for user, size: Settings.gravatar_imagine_size %>
   <%= link_to user.name, user %>
-  <% if current_user.admin? && !current_user?(user) %>
+  <% if current_user.admin? && !user.current_user?(current_user) && !user.admin? %>
     | <%= link_to t("all_user.delete"), user, method: :delete,
       data: { confirm: I18n.t("all_user.you_sure") } %>
   <% end %>

@@ -90,3 +90,15 @@ en:
   delete:
     success: "User deleted"
     fail: "User delete not complete"
+  account_activate:
+    success: "Account activated!"
+    unsuccess: "Invalid activation link"
+    not_activate_message: "Account not activated. Check your email for the
+      activation link."
+    check_email_for_active: "Please check your email to activate your account."
+    subject: "Account activation"
+    greeting: "Hi"
+    activate: "Activate"
+  mailer:
+    acc_activate_content_html: "<p> Welcome to the Sample App! Click on the
+      link below to activate your account:</p>"
