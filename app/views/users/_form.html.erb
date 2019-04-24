@@ -1,0 +1,17 @@
+<%= form_with model: @user, url: yield(:form_path), local: false do |f| %>
+  <%= render "shared/error_messages" %>
+
+  <%= f.label :name, t("update.name") %>
+  <%= f.text_field :name, class: "form-control" %>
+
+  <%= f.label :email, t("update.email") %>
+  <%= f.email_field :email, class: "form-control" %>
+
+  <%= f.label :password, t("update.password") %>
+  <%= f.password_field :password, class: "form-control" %>
+
+  <%= f.label :password_confirmation, t("update.password_confirm") %>
+  <%= f.password_field :password_confirmation, class: "form-control" %>
+
+  <%= f.submit yield(:button_text), class: "btn btn-primary" %>
+<% end %>

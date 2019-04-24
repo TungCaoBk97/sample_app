@@ -62,6 +62,8 @@ en:
   new_user: "New user?"
   flash:
     invalid_email_password: "Invalid email/password combination"
+    profile_updated: "Profile updated"
+    please_login: "Please log in"
   header:
     users: "Users"
     account: "Account"
@@ -70,3 +72,21 @@ en:
     log_out: "Log out"
     log_in: "Log in"
   remember_this_computer: "Remember me on this computer"
+  all_user:
+    delete: "delete"
+    you_sure: "You sure?"
+    all_user: "All users"
+  paginate:
+    previous: "Previous Label"
+    next: "Next Label"
+  update:
+    edit_user: "Edit user"
+    update_profile: "Update your profile"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    password_confirm: "Password Confirmation"
+    save_change: "Save changes"
+  delete:
+    success: "User deleted"
+    fail: "User delete not complete"

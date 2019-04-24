@@ -1,0 +1,14 @@
+<% provide :title, t("update.edit_user") %>
+<h1><%= t "update.update_profile" %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <% provide :button_text, t("update.save_change") %>
+    <% provide :form_path, user_path(@user) %>
+    <%= render "form" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <a href="http://gravatar.com/emails" target="_blank">change</a>
+    </div>
+  </div>
+</div>
