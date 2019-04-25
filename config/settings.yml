@@ -4,3 +4,8 @@ user_valid:
   min_pass_length: 6
 remember_me: "1"
 gravatar_imagine_size: 50
+configure:
+  email:
+    owner: "noreply@example.com"
+    reset: "to@example.com"
+host: "localhost:3000"
