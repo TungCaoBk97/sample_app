@@ -102,3 +102,20 @@ vi:
   mailer:
     acc_activate_content_html: "<p> Chào mừng đến với Ứng dụng mẫu! Nhấn vào
       link bên dưới để kích hoạt tài khoản của bạn:</p>"
+    password_reset: "Khôi phục mật khẩu"
+  password_update: "Cập nhật mật khẩu"
+  reset_password: "Khôi phục mật khẩu"
+  forgot_password: "Quên mật khẩu"
+  forgot_password_parenthese: "(quên mật khẩu)"
+  submit: "Gửi"
+  reset:
+    reset_click_link_below: "Để khôi phục mật khẩu, click vào link bên dưới:"
+    link_expire_2_hours: "Link này sẽ hết hiệu lực trong vòng 2 giờ."
+    did_not_request_ignore_email: "Nếu bạn không có yêu cầu khôi phục mật khẩu,
+      hãy bỏ qua tin nhắn này và mật khẩu của bạn vẫn như cũ."
+    flash:
+      email_send_password_reset: "Email được gửi với mật khẩu để khôi phục"
+      email_not_found: "Địa chỉ email không tồn tại"
+      password_reseted: "Mật khẩu đã được khôi phục."
+      expired: "Mã khôi phục đã hết hạn."
+    password_not_empty: "không thể để trống"

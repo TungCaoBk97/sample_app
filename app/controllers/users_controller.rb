@@ -64,15 +64,14 @@ class UsersController < ApplicationController
   end
 
   def logged_in_user
-    unless logged_in?
-      store_location
-      flash[:danger] = t "flash.please_login"
-      redirect_to login_url
-    end
+    return if logged_in?
+    store_location
+    flash[:danger] = t "flash.please_login"
+    redirect_to login_url
   end
 
   def correct_user
     find_user
-    redirect_to(root_url) unless user.current_user? @user
+    redirect_to(root_url) unless @user.current_user? current_user
   end
 end
