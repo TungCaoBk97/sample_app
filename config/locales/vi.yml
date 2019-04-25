@@ -119,3 +119,22 @@ vi:
       password_reseted: "Mật khẩu đã được khôi phục."
       expired: "Mã khôi phục đã hết hạn."
     password_not_empty: "không thể để trống"
+  micropost:
+    micropost: "bài đăng"
+    microposts: "Những bài đăng"
+    feed: "Trang bài đăng"
+    post_count: "%{string}"
+    flash:
+      save_success: "Tạo bài đăng thành công"
+      delete_success: "Đã xóa bài đăng"
+    picture_5MB: "nên nhỏ hơn 5MB"
+    delete: "xóa"
+    you_sure: "Bạn chắc không?"
+    new_micropost: "Tạo bài đăng mới ..."
+    post: "Đăng"
+    alert:
+      size: "File có kích cỡ tối đa 5MB. Hãy chọn 1 file nhỏ hơn."
+  view_my_profile: "xem hồ sơ của tôi"
+  posted:
+    posted: "Đã đăng"
+    ago: "trước"
