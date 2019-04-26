@@ -1,6 +1,8 @@
 class User < ApplicationRecord
-  attr_reader :remember_token, :activation_token, :reset_token
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+  attr_reader :remember_token, :activation_token, :reset_token
+  has_many :microposts, dependent: :destroy
+
   validates :email, presence: true,
     length: {maximum: Settings.user_valid.max_email_length},
     format: {with: VALID_EMAIL_REGEX},
@@ -9,9 +11,10 @@ class User < ApplicationRecord
     presence: true
   validates :password, presence: true,
     length: {minimum: Settings.user_valid.min_pass_length}, allow_nil: true
+  has_secure_password
   before_create :create_activation_digest
   before_save :email_downcase
-  has_secure_password
+
   scope :activated, ->{where activated: true}
 
   class << self
@@ -48,18 +51,13 @@ class User < ApplicationRecord
     update activated: true, activated_at: Time.zone.now
   end
 
-  def send_activation_email
-    UserMailer.account_activation(self).deliver_now
-  end
-
   def current_user? user
     self == user
   end
 
   def create_reset_digest
     @reset_token = User.new_token
-    update_columns reset_digest: User.digest(reset_token),
-      reset_send_at: Time.zone.now
+    update reset_digest: User.digest(reset_token), reset_send_at: Time.zone.now
   end
 
   def send_password_reset_email
@@ -68,6 +66,14 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_send_at < Settings.password_reset_expire.hours.ago
+  end
+
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
+  end
+
+  def feed
+    Micropost.feed_for self
   end
 
   private

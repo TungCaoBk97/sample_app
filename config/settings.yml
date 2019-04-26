@@ -10,3 +10,9 @@ configure:
     reset: "to@example.com"
 host: "localhost:3000"
 password_reset_expire: 2
+micropost:
+  picture_size: 5
+  max_content_length: 140
+  resize:
+    horizon: 400
+    vertical: 400

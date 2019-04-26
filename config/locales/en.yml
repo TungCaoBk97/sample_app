@@ -119,3 +119,22 @@ en:
       password_reseted: "Password has been reset."
       expired: "Password reset has expired."
     password_not_empty: "can't be empty"
+  micropost:
+    micropost: "micropost"
+    microposts: "Microposts"
+    feed: "Micropost Feed"
+    post_count: "%{string}"
+    flash:
+      save_success: "Micropost created!"
+      delete_success: "Micropost deleted"
+    picture_5MB: "should be less than 5MB"
+    delete: "delete"
+    you_sure: "You sure?"
+    new_micropost: "Compose new micropost..."
+    post: "Post"
+    alert:
+      size: "Maximum file size is 5MB. Please choose a smaller file."
+  view_my_profile: "view my profile"
+  posted:
+    posted: "Posted"
+    ago: "ago"
