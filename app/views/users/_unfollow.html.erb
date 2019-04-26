@@ -1,0 +1,3 @@
+<%= form_with(model: @unfollow, html: { method: :delete }, remote: true) do |f| %>
+  <%= f.submit t("following.unfollow"), class: "btn" %>
+<% end %>

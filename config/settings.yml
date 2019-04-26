@@ -16,3 +16,4 @@ micropost:
   resize:
     horizon: 400
     vertical: 400
+follow_gravatar_size: 30

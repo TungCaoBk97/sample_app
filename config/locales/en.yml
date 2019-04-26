@@ -138,3 +138,18 @@ en:
   posted:
     posted: "Posted"
     ago: "ago"
+  following:
+    title: "Following"
+    follower: "Followers"
+    submit: "Follow"
+    unfollow: "Unfollow"
+  followers:
+    title: "Follower"
+  relationships:
+    stats:
+      following:
+        one: "1 Following"
+        other: "%{count} Followings"
+      followers:
+        one: "1 Follower"
+        other: "%{count} Followers"

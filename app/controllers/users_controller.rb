@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user, only: :destroy
   def index
-    @users = User.activated.paginate(page: params[:page])
+    @users = User.activated.paginate page: params[:page]
   end
 
   def new
@@ -24,7 +24,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.feed.paginate page: params[:page]
+    @follow = current_user.active_relationships.build
+    @unfollow = current_user.active_relationships.find_by followed_id: @user.id
+    @microposts = Micropost.feed_for(@user).paginate page: params[:page]
   rescue ActiveRecord::RecordNotFound
     render "errors/error_404"
   end
