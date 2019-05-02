@@ -138,3 +138,18 @@ vi:
   posted:
     posted: "Đã đăng"
     ago: "trước"
+  following:
+    title: "Theo dõi"
+    follower: "Người theo dõi"
+    submit: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+  followers:
+    title: "Người theo dõi"
+  relationships:
+    stats:
+      following:
+        one: "1 người theo dõi"
+        other: "%{count} người theo dõi"
+      followers:
+        one: "1 theo dõi"
+        other: "%{count} theo dõi"

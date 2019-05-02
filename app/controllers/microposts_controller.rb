@@ -9,7 +9,7 @@ class MicropostsController < ApplicationController
       flash[:success] = t "micropost.flash.save_success"
       redirect_to root_url
     else
-      @feed_items = current_user.feed.paginate page: params[:page]
+      @feed_items = Micropost.feed_status(current_user).paginate page: params[:page]
       render "static_pages/home"
     end
   end
